@@ -1,0 +1,81 @@
+body {
+    margin-left : 20px;
+    margin-right : 20px;
+}
+.top-right {
+    text-align: right;
+    word-spacing: 7px;
+}
+
+.top-right>a {
+    text-decoration: none;
+    color : gray;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 170px;
+}
+
+#search {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#search>input {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    padding-left : 20px;
+}
+
+#underSearch {
+    margin-top: 15px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: gainsboro;
+    width: 100%;
+    height: 10%;
+    border : 1.1px solid gray;
+}
+
+
+
+#korea { 
+    padding-left : 10px;
+    border-bottom : 1.1px solid gray;
+    padding: 5px;
+}
+
+
+#footer-left {
+    word-spacing: 10px;
+    padding-left: 10px;
+}
+
+#footer-left > a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#footer-right {
+    float: right;
+    padding-right: 20px;
+    word-spacing: 10px;
+}
+
+#footer-right > a {
+    text-decoration: none;
+    color: black;
+}
+
+
