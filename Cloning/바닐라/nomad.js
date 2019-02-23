@@ -1,3 +1,4 @@
+const clicked = (function(){
 const greeting = document.querySelector("#banana")
 
 const CLICKED_CLASS = "clicked"
@@ -17,5 +18,22 @@ function init() {
     greeting.addEventListener("click", handleClick);
 }
 init();
+}());
+
+const inputName = document.querySelector(".name")
+const DATA = ['민수' , '양혁' , '양준'];
+
+function initial() {
+    inputName.addEventListener("click", replier)
+}
+
+function replier(){
+    inputName.innerHTML = DATA[Math.floor(Math.random()*DATA.length)]
+}
+
+initial();
+
+
+
 
 

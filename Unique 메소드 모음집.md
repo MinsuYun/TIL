@@ -19,3 +19,15 @@
   ```
 
   
+
+### [r]
+
+- replace - 문자열에서 특정 요소 제거 및 대체
+
+  ```javascript
+  var str = "data-123";
+  str = str.replace("data-", "");
+  ```
+
+  
+

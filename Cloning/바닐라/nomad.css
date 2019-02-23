@@ -16,6 +16,7 @@ h1 {
     color: purple;
 }
 
-.btn {
+.btn, .name {
     cursor: pointer;
 }
+
