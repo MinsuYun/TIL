@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1492057201103-01c5991d4596?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.nameBox {
+    display : none;
+}
+ 
+.showing, .greeting {
+    display : block;
+}
