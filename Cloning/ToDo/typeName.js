@@ -17,10 +17,10 @@ function handleSubmit(event){
     saveName(currentValue);
 }
 
-function typingName(){
-    form.classList.add(SHOWING_CN);
-    form.addEventListener("submit", handleSubmit )
-}
+// function typingName(){
+//     form.classList.add(SHOWING_CN);
+//     form.addEventListener("submit", handleSubmit )
+// }
 
 function paintGreeting(text) {
     form.classList.remove(SHOWING_CN);

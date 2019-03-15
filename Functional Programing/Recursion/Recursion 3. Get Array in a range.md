@@ -1,4 +1,4 @@
-# recursion 3. get Array in a range
+# Recursion 3. get Array in a range
 
 Q. 특정 구간에 있는 숫자들을 이용하여 배열을 만들어라.
 
