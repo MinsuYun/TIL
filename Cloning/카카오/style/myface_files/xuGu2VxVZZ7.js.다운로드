@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["7sv7P"]); }
+
+__d("legacy:popup-resizer",["PopupWindow"],(function(a,b,c,d,e,f){a.PopupResizer=b("PopupWindow")}),3);
+__d("ReactionIconClassNames",["cx"],(function(a,b,c,d,e,f,g){"use strict";e.exports={root:"_7j36",icon:"_7j02",reactions:{like:"_7j03",love:"_7j04",anger:"_7j05",wow:"_7j06",haha:"_7j07",sorry:"_7j08",yay:"_7j09",confused:"_7j0a",dorothy:"_7j0b",toto:"_7j0c",flame:"_7j0d",plane:"_7j0e"},sizes:{14:"_7jh8",16:"_7j0g",18:"_7j0h",48:"_7j0i",96:"_7j0j"}}}),null);

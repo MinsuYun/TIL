@@ -1,0 +1,10 @@
+.foodType li {
+    float: left;
+    list-style: none;
+    cursor: pointer;
+    padding-left : 30px;
+}
+
+.btn {
+    border : 5px solid gainsboro;
+}

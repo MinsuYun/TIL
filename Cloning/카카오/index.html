@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header__top">
+            <div class="header__column">
+                <!-- plane icon -->
+                <i class="fa fa-plane"></i>
+                <!-- wifi  icon -->
+                <i class="fa fa-wifi"></i>
+            </div>
+            <div class="header__column">
+                <span class="header__time">18:38</span>
+            </div>
+            <div class="header__column">
+                <!-- moon icon -->
+                <i class="fa fa-moon"></i>
+                <!-- blue icon -->
+                <i class="fa fa-bluetooth-b"></i>
+                <span class="header__battery">66%
+                    <!--battery icon-->
+                    <i class="fa fa-battery-half"></i>
+                </span>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__column">
+                <span class="header__text">Manage</span>
+            </div>
+            <div class="header__column">
+                <span class="header__text">Friends<i class="fa fa-caret-down"></i></span>
+            </div>
+            <div class="header__column">
+                <i class="fa fa-cog fa-lg"></i>
+            </div>
+        </div>
+    </header>
+    <main class="friends">
+        <div class="search-bar">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Find friends, chats. Plus Friends">
+        </div>
+        <section class="friends__section">
+            <header class="friends__section-header">
+                <h6 class="friends__section-title">My Profile</h6>
+            </header>
+            <div class="friends__section-rows">
+                <div class="friends__section-row">
+                    <a href="profile.html">
+                        <img src="style/myface.JPG">
+                        <span class="friends__section-name">윤민수</span>
+                    </a>
+                </div>
+                <div class="friends__section-row">
+                    <img src="">
+                    <span class="friends__section-name">Friends'Names Display</span>
+                </div>
+            </div>
+        </section>
+        <section class="friends__section">
+            <header class="friends__section-header">
+                <h6 class="friends__section-title">Friends</h6>
+            </header>
+            <div class="friends__section-rows">
+                <div class="friends__section-row">
+                    <div class="friends__section-column">
+                        <img src="style/honey.png">
+                        <span class="friends_section-name">시연이♥</span>
+                        <span class="friends__section-tagline">
+                            민수 바라기....
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <nav class="tab-bar">
+        <a href="chats.html" class="tab-bar__tab  tap-bar__tap--selected">
+            <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
+        </a>
+        <a href="index.html" class="tab-bar__tab">
+            <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
+        </a>
+        <a href="find.html" class="tab-bar__tab">
+            <i class="fa fa-search"></i><span class="tab-bar__title">Find</span>
+        </a>
+        <a href="more.html" class="tab-bar__tab">
+            <i class="fa fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
+        </a>
+    </nav>
+</body>
+
+</html>

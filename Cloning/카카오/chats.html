@@ -1,0 +1,104 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <title>Chats</title>
+</head>
+
+<body>
+  <hearder>
+    <div class="header__top">
+      <div class="header__column">
+        <!--plane icon-->
+        <i class="fa fa-fighter-jet"></i>
+        <!--wifi icon-->
+        <i class="fa fa-wifi"></i>
+      </div>
+      <div class="header__column">
+        <span class="header__time">18:38</span>
+      </div>
+      <div class="header__column">
+        <!--moon icon-->
+        <i class="fa fa-moon-o"></i>
+        <!—blue icon—>
+          <i class="fa fa-blutooth-b"></i>
+          <span class="header__battery">66% <!—battery icon—><i class="fa fa-battery-full"></i></span>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column">
+        <span class="header__text">Edit</span>
+      </div>
+      <div class="header__column">
+        <span class="header__text">Chats <i class="fa fa-caret-down"></i></span>
+      </div>
+      <div class="header__column">
+
+      </div>
+    </div>
+  </hearder>
+
+  <main class="chats">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, chats. Plus Friends">
+    </div>
+    <ul class="chats__list">
+      <li class="chats__chat">
+        <a href="chat.html">
+          <div class="chat__content">
+            <img src="style/wonbin.jpg" alt="">
+            <div class="chat__preview">
+              <h3 class="chat__user">내 친구 원빈</h3>
+              <span class="chat__lastMessage">얼마면 되겠니?</span>
+  
+            </div>
+          </div>
+        </a>
+        <span class="chat__date-time">
+          15:55
+        </span>
+      </li>
+      <li class="chats__chat">
+        <a href="chat.html">
+          <div class="chat__content">
+            <img src="style/honey.png" alt="">
+            <div class="chat__preview">
+              <h3 class="chat__user">시연이♥</h3>
+              <span class="chat__lastMessage">보고싶어...언제 시간 돼?</span>
+            </div>
+          </div>
+        </a>
+        <span class="chat__date-time">
+          14:21
+        </span>
+      </li>
+
+    </ul>
+  </main>
+
+
+
+
+
+  <nav class="tab-bar">
+    <a href="chats.html" class="tab-bar__tab">
+      <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="index.html" class="tab-bar__tab tap-bar__tap--selected">
+      <i class="fa fa-comment"></i><span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar__tab">
+      <i class="fa fa-search"></i><span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar__tab">
+      <i class="fa fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
+    </a>
+  </nav>
+</body>
+
+</html>
