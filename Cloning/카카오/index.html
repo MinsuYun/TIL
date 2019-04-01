@@ -7,11 +7,11 @@
     <title>Friends</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
+    <header class="top-header">
         <div class="header__top">
             <div class="header__column">
                 <!-- plane icon -->
@@ -38,7 +38,7 @@
                 <span class="header__text">Manage</span>
             </div>
             <div class="header__column">
-                <span class="header__text">Friends<i class="fa fa-caret-down"></i></span>
+                <span class="header__text">Friends<span class="num_friends">1</span></span>
             </div>
             <div class="header__column">
                 <i class="fa fa-cog fa-lg"></i>
@@ -85,10 +85,8 @@
 
         </section>
     </main>
-
-
     <nav class="tab-bar">
-        <a href="chats.html" class="tab-bar__tab  tap-bar__tap--selected">
+        <a href="chats.html" class="tab-bar__tab  tab-bar__tab--selected">
             <i class="fa fa-user"></i><span class="tab-bar__title">Friends</span>
         </a>
         <a href="index.html" class="tab-bar__tab">

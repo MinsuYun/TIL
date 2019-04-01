@@ -1,0 +1,36 @@
+.tab-bar {
+    background-color: gainsboro;
+    position: fixed;
+    width: 100%;
+    /* bottom: 100; */
+    bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding : 10px 30px 5px 30px;
+    border-top: 1px solid #c1c1c1
+}
+
+.tab-bar .tab-bar__tab {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    padding-right: 70px;
+    color: #c1c1c1
+}
+
+
+.tab-bar .tab-bar__tab i {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.tab-bar .tab-bar__title {
+    font-size: 1.2rem;
+}
+
+.tab-bar .tab-bar__tab--selected {
+    color: #4C3032;
+}

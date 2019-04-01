@@ -1,0 +1,44 @@
+.top-header {
+    background-color : #4c3032;
+    color : white;
+    padding: 7px 10px 15px 10px;
+    /* 순서대로 상/좌/하/우 */
+    position: fixed;
+    width: 100%;
+    top:0
+}
+
+.top-header .header__top,
+.top-header .header__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-header .header__top {
+    margin-bottom: 15px;
+    padding-right: 30px;
+    font-size : 0.9rem;
+}
+
+.top-header .header__bottom {
+    margin: 0 10px;
+    font-size: 1.2rem;
+    padding-right: 30px;
+}
+
+.top-header .header__column {
+    width: 33%; 
+}
+
+.top-header .header__column:last-child {
+    text-align: right;
+}
+
+.top-header .header__column:nth-child(2) {
+    text-align: center;
+}
+
+.num_friends {
+    color : yellow;
+    margin-left : 5px;
+}
